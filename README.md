@@ -4,24 +4,35 @@ hola que tal este repositorio contiene aplicaciones desarrolladas en python que 
 
 # Archivos
 
- - [Activar masivo]()
- - [Actualizar masivo(elimina y república)]()
- - [Actualizar Items shiping desactivado]()
- - [Contador de visitas]()
- - [Eliminador masivo]()
- -  [jul-sep]()
- - [pausar masivo]()
- - [project 1]()
- - [subir items 2]()
- - [subir masivo sin shipping]()
- - [traduccion]()
- - [update items]()
+ - [01_actualizar_items_com_shiping]()
+ - [02_contador_visitas_personalizado]()
+ - [03_contador_ventas]()
+ - [04_contador_visitas_12 _meses]()
+ - [05_de_pausado_a_activado]()
+ - [06_eliminador_masivo]()
+ - [07_pausar_masivo]()
+ - [08_subir_items_2_con_shipping]()
+ - [09_subir_masivo_sin_shipping]()
+ - [10_traduccion]()
+ - [11_traduccion_api]()
+ - [12_update_items_sin_shipping]()
+ - [13_update_items_con_shipping]()
+ - [14_actualizar_mercado_libre_heroku]()
+ - [15_actualizar_asinbook]()
+ - [16_amazon_mercadolibre-asins]()
+ - [17_buscador_por_sku]()
+ - [18_contador_vistas_simple]()
+ - [19_contador_visitas_simple_web]()
+ - [20_upload-sku]()
+ - [21_actualizar_items_mercadolibe_shiping_desactivado]()
+ - [22_activar-masivo]()
+ - [project1]()
 
 # Comenzando
 
 para bajar el proyecto a la pc  abre una terminal y escribe los siguientes comandos:
 ```
-`git clone https://github.com/nusspez/proyectos-mercadolibre`
+`git clone https://github.com/nusspez/proyectos_mercadolibre_final`
 ```
 
 # Pre requisitos
