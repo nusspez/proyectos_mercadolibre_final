@@ -1,0 +1,3 @@
+$ sudo docker build -t python-api .
+
+$ sudo docker run -ti python-api
