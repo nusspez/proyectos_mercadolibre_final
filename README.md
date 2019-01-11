@@ -32,7 +32,7 @@ hola que tal este repositorio contiene aplicaciones desarrolladas en python que 
 
 para bajar el proyecto a la pc  abre una terminal y escribe los siguientes comandos:
 ```
-`git clone https://github.com/nusspez/proyectos_mercadolibre_final`
+ git clone https://github.com/nusspez/proyectos_mercadolibre_final
 ```
 
 # Pre requisitos
