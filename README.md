@@ -4,10 +4,10 @@ hola que tal este repositorio contiene aplicaciones desarrolladas en python que 
 
 # Archivos
 
- - [01_actualizar_items_com_shiping]()
- - [02_contador_visitas_personalizado]()
- - [03_contador_ventas]()
- - [04_contador_visitas_12 _meses]()
+ - [01_actualizar_items_com_shiping(https://github.com/nusspez/proyectos_mercadolibre_final/tree/master/01_actualizar_items_com_shiping)
+ - [02_contador_visitas_personalizado(https://github.com/nusspez/proyectos_mercadolibre_final/tree/master/02_contador_visitas_personalizado)
+ - [03_contador_ventas](https://github.com/nusspez/proyectos_mercadolibre_final/tree/master/03_contador_ventas)
+ - [04_contador_visitas_12 _meses](https://github.com/nusspez/proyectos_mercadolibre_final/tree/master/04_contador_visitas_12%20_meses)
  - [05_de_pausado_a_activado]()
  - [06_eliminador_masivo]()
  - [07_pausar_masivo]()
