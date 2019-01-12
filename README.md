@@ -37,21 +37,40 @@ para bajar el proyecto a la pc  abre una terminal y escribe los siguientes coman
 
 # Pre requisitos
 
-## Linux
-
- - python3
- - pip3
- - venv
+- python3
+- pip3
 
 ## windows
 
- - python3
+instalar
+
+- [git](https://git-scm.com/downloads)
+- [python3](https://www.python.org/downloads/)
 
 ## mac
 
-- python3
-- pip3
-- homebrew
+instalar
+
+- [python3](https://www.python.org/downloads/)
+- [xcode](https://developer.apple.com/xcode/)
+
+## linux
+
+linux ya contiene todo lo necesario para corer las aplicaciones solo asegurate de instalar las dependencias
+
+# third party requests(dependencias)
+
+## nota cada aplicacion debe contener un archivo requirements este debe ser instalado si quieres puedes copiar y pegar esto en tu terminal son todas las dependencias usadas por las apps
+
+```
+pip install Flask==1.0.2
+pip install Werkzeug==0.14.1
+pip install requests==2.18.4
+pip install goslate==1.5.1
+pip install progress==1.4
+
+```
+
 
 # Instalacion
 
