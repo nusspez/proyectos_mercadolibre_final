@@ -7,7 +7,7 @@ import datetime
 def ContadorDeVisitasSimple(fecha_inicio, fecha_final):
 
     datos = []
-    url = 'https://api.mercadolibre.com/items/MLM'
+    url = 'https://api.mercadolibre.com/items/MCO'
 
     url_headers = (f'/visits?date_from={fecha_inicio}T00:00:00.000-00:00&date_to={fecha_final}T00:00:00.000-00:00')
     headers = {'content-type': 'application/json'}
