@@ -53,7 +53,6 @@ for i in range(numero_productos - 1):
                         "available_quantity": list1_Cantidad
                       }
 
-    import ipdb; ipdb.set_trace()
     r = requests.put(f'https://api.mercadolibre.com/items/MLM{list1_ad}?access_token={access_token}', data = json.dumps(data_product),headers=headers)
 
     x = [list1_ad, list1_Cantidad,list1_precio]
