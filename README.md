@@ -68,6 +68,7 @@ pip install Werkzeug==0.14.1
 pip install requests==2.18.4
 pip install goslate==1.5.1
 pip install progress==1.4
+pip install lxml
 
 ```
 
