@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>actualizar con archivo</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/actualizar/actualizar.css') }}">
+  </head>
+   <body>
+     <div class="container">
+       <h2>ingresa el access_token y el archivo</h2>
+       <form method="POST" enctype = "multipart/form-data">
+         <input type = "file" name = "file" /><br>
+         <input type="text" class="access_token" name="access_token" placeholder="access_token"><br>
+         <input type="submit" value="Submit" class="submit"><br>
+       </form>
+     </div>
+
+   </body>
+</html>

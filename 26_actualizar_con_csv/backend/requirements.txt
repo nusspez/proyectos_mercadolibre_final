@@ -1,0 +1,10 @@
+Flask
+Jinja2
+pymongo
+Werkzeug
+certifi
+gunicorn
+pycurl
+pymongo
+pycurl
+flask-cors
