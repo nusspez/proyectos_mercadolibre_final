@@ -22,7 +22,7 @@ def actualizar(access_token):
                                 "available_quantity": cantidad_actualizada
                               }
 
-            r = requests.put(f'https://api.mercadolibre.com/items/MLM{numero_publicacion}?access_token={access_token}', data = json.dumps(data_product),headers=headers)
+            r = requests.put(f'https://api.mercadolibre.com/items/MCO{numero_publicacion}?access_token={access_token}', data = json.dumps(data_product),headers=headers)
 
             x = [numero_publicacion, cantidad_actualizada,precio_actualizado]
 
@@ -33,6 +33,6 @@ def actualizar(access_token):
                 for i in range(len(datos)):
                     archivo.writerow(datos[i])
 
-            time.sleep(1)
+            time.sleep(0.001)
 
     pass
