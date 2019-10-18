@@ -1,17 +1,22 @@
-import csv
-import time
-import requests
-import json
 
 with open('config.json') as config_file:
     data = json.load(config_file)
 
 access_token = data['access_token']
 site = data['site']
+proxy = data['proxy']
+proxy1 = data['proxy1']
+proxy2 = data['proxy2']
 
 datos = []
 
 headers = {'content-type': 'application/json'}
+
+proxy_dict = {
+proxy,
+proxy1,
+proxy2
+}
 
 with open('data.csv', newline='') as File:
     reader = csv.reader(File)
@@ -26,11 +31,11 @@ with open('data.csv', newline='') as File:
                             "available_quantity": cantidad_actualizada
                           }
 
-        r = requests.put(f'https://api.mercadolibre.com/items/{site}{numero_publicacion}?access_token={access_token}', data = json.dumps(data_product),headers=headers)
+        r = requests.put(f'https://api.mercadolibre.com/items/{site}{numero_publicacion}?access_token={access_token}', data = json.dumps(data_product),headers=headers,proxies=proxy_dict)
 
         x = [numero_publicacion, cantidad_actualizada,precio_actualizado]
 
-        print("elemento no. ", str(row))
+        print("elemento no. " + row + x)
 
         datos.insert(0, x)
 
